@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Belajar Bahasa Inggris Otodidak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg'),
+                              url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg'),
+                              url('https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg');
+            background-size: 100px 50px;
+            background-repeat: repeat;
+            background-position: 0 0, 50px 0, 100px 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #00FF00;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #fff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #00BFFF;
+        }
+        td {
+            background-color: #111;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 10px 0;
+        }
+        a {
+            color: #00FF00;
+            text-decoration: none;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jadwal Belajar Bahasa Inggris Otodidak</h1>
+    </header>
+    <main>
+        <section id="jadwal">
+            <h2 style="color: #00BFFF;">Jadwal Mingguan</h2>
+            <table>
+                <tr>
+                    <th>Hari</th>
+                    <th>Waktu</th>
+                    <th>Kegiatan</th>
+                </tr>
+                <tr>
+                    <td>Senin</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Grammar Dasar</td>
+                </tr>
+                <tr>
+                    <td>Senin</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Listening (Podcast/Audio)</td>
+                </tr>
+                <tr>
+                    <td>Selasa</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Kosa Kata Baru</td>
+                </tr>
+                <tr>
+                    <td>Selasa</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Reading (Artikel/Buku)</td>
+                </tr>
+                <tr>
+                    <td>Rabu</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Writing (Esai/Kalimat)</td>
+                </tr>
+                <tr>
+                    <td>Rabu</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Listening (Film/TV Show)</td>
+                </tr>
+                <tr>
+                    <td>Kamis</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Grammar Lanjutan</td>
+                </tr>
+                <tr>
+                    <td>Kamis</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Speaking (Latihan Percakapan)</td>
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Kosa Kata Baru</td>
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Reading (Artikel/Buku)</td>
+                </tr>
+                <tr>
+                    <td>Sabtu</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Writing (Esai/Kalimat)</td>
+                </tr>
+                <tr>
+                    <td>Sabtu</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Listening (Podcast/Audio)</td>
+                </tr>
+                <tr>
+                    <td>Minggu</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Review Mingguan (Grammar & Kosa Kata)</td>
+                </tr>
+                <tr>
+                    <td>Minggu</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Practice Speaking (Tandem/Online)</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Dibuat oleh Taufik</p>
+        <div class="contact-info">
+            <a href="mailto:ofikcf080@gmail.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email">
+            </a>
+            <a href="https://instagram.com/tauvfiik" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/6281546416131" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        </div>
+        &copy; 2024 Jadwal Belajar Bahasa Inggris Otodidak
+    </footer>
+</body>
+</html>
